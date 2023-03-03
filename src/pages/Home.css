@@ -1,0 +1,132 @@
+#me{
+    color: white;
+    display: flex;
+    background-color: #000000;
+    padding-top: 12vh;
+    margin-top: 10vh;
+    height: 78vh;
+}
+
+button{
+  position: absolute;
+}
+.Left{
+    width: 50vw;
+    
+}
+
+.Right{
+    width: 50vw;
+    overflow-y: hidden;
+}
+
+
+.Memoji{
+    z-index: 200;
+    position: absolute;
+    left: 15%;
+    width: 300px;
+    border-radius: 800px 600px 760px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 8vh;
+}
+
+.Memoji:hover{
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>❤️</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+
+  
+.typing-demo {
+    width: 6ch; /*Size of words */
+    animation: typing 1s steps(6), blink .7s step-end 1s;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: monospace;
+    font-size: 6em;
+    font-weight: 800;
+  }
+
+  .typing-demo2 {
+    width: 21ch; /*Size of words */
+    animation: typing 2s steps(21), blink .7s step-end 2s;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: monospace;
+    font-size: 3em;
+    color:bisque;
+    font-weight: bolder;
+  }
+
+
+  .typing-demo3 {
+    width: 36ch; /*Size of words */
+    animation: typing 3s steps(36), blink .7s step-end 5s;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: monospace;
+    font-size: 2em;
+    color: #ffffff;
+    font-weight: 800;
+
+  }
+
+
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+
+
+.Sobre{
+  display: flex;
+  font-size: 1.2em;
+  font-weight: 520;
+  margin-right: 13vh;
+}
+
+.TituloSobre{
+  font-size: 2.4em;
+  font-weight: 800;
+  margin-bottom: 4vh;
+  display: block;
+}
+
+.TituloStack{
+  font-size: 2.4em;
+  font-weight: 900;
+  margin-top: 5vh;
+  display: flex;
+}
+
+.Stack{
+  color: white;
+  margin-top: 5vh;
+  justify-content: center;
+  font-size: 3em;
+  margin: 3vh;
+  display: flex;
+}
+
+.Stack::content:hover{
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>👨‍💻</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+
+.Icon{
+display: flex;
+margin: 2vh;
+}
+  .Icon:hover{
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>👨‍💻</text></svg>") 16 0,auto; /*!emojicursor.app*/
+  }
