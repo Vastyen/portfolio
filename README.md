@@ -3,3 +3,6 @@
 Technologies
 
 - React.js
+- Vite
+- Particles.js
+
